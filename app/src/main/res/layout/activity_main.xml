@@ -42,11 +42,11 @@
         <Button
             android:id="@+id/btn_test"
             style="@style/SvmBtnStyle"
-            android:text="测试模型" />
+            android:text="训练样本" />
 
         <Button
             android:id="@+id/btn_real"
             style="@style/SvmBtnStyle"
-            android:text="真实数据" />
+            android:text="测试样本" />
     </LinearLayout>
 </LinearLayout>

@@ -160,7 +160,7 @@ public class SensorFragment extends Fragment implements View.OnClickListener {
                     if (strAct.equals("Still"))
                         cnact="啥也没干";
                     System.out.println("--------" + code + ":" + act + ":" + position);
-                    mTvResult.setText("\n\n您的当前动作是：" + cnact + "------postion:" + strPosition);
+                    mTvResult.setText("\n\n您的当前动作是：" + cnact);
                     currentIndex = 0;
                 }
                 accArr[currentIndex++] = a;
